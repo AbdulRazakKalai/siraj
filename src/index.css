@@ -74,3 +74,21 @@ h3 {
 .axis-vertical {
   display: none;
 }
+.footer {
+  background: #202024;
+}
+.footer h2 {
+  margin: 0;
+  padding: 1rem 0px 1rem 3rem;
+  border: 0;
+  font-size: 20px;
+  vertical-align: baseline;
+  color: #ffffff;
+}
+.wrapper {
+  width: 1170px;
+  padding: 0 0px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
