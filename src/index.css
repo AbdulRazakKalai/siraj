@@ -92,3 +92,39 @@ h3 {
   position: relative;
   overflow: hidden;
 }
+
+.footerlistyle{
+
+  list-style-type: none;
+  color:lightgray;
+  padding-left: 3rem;
+  font: inherit;
+}
+
+.footerlistylefooter{
+  background-color: white;
+  height:25px;
+  
+}
+
+.displayli li{
+  padding: 0.5rem;
+  display:inline;
+  color:black;
+}
+
+.displayli li a{
+  color: #067cce !important;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.displayli li a:link {
+  text-decoration: none;
+}
+
+.social a {
+
+  padding: 70rem;
+  display:inline;
+}
