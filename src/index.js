@@ -4,20 +4,9 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
-import 'font-awesome/css/font-awesome.min.css';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import "font-awesome/css/font-awesome.min.css";
+import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import DemoCarousel from "./Slider/Slider";
-
-const routing = (
-    <Router>
-      <div>
-      <Route path="/" component={App} />
-      <Route path="Demo" component={DemoCarousel} />
-      </div>
-    </Router>
-  )
-  ReactDOM.render(routing, document.getElementById('root'))
-
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

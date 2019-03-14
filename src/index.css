@@ -93,27 +93,25 @@ h3 {
   overflow: hidden;
 }
 
-.footerlistyle{
-
+.footerlistyle {
   list-style-type: none;
-  color:lightgray;
+  color: lightgray;
   padding-left: 3rem;
   font: inherit;
 }
 
-.footerlistylefooter{
+.footerlistylefooter {
   background-color: white;
-  height:25px;
-  
+  height: 25px;
 }
 
-.displayli li{
+.displayli li {
   padding: 0.5rem;
-  display:inline;
-  color:black;
+  display: inline;
+  color: black;
 }
 
-.displayli li a{
+.displayli li a {
   color: #067cce !important;
   font-style: italic;
   font-weight: bold;
@@ -124,7 +122,10 @@ h3 {
 }
 
 .social a {
-
   padding: 70rem;
-  display:inline;
+  display: inline;
+}
+.fas {
+  font-size: 19px;
+  color: #0583d3;
 }
