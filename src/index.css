@@ -129,3 +129,21 @@ h3 {
   font-size: 19px;
   color: #0583d3;
 }
+.circle {
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 35px;
+  background: grey;
+}
+.row h2 {
+  color: #0583d3;
+  font-size: 19px !important;
+}
+.map {
+  padding-left: 50%;
+}
+.contact {
+  background-color: grey;
+}

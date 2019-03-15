@@ -56,7 +56,7 @@ export default class Header extends React.Component {
                 <NavLink href="/About">About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Products</NavLink>
+                <NavLink href="/Product">Products</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">Services</NavLink>
@@ -65,10 +65,10 @@ export default class Header extends React.Component {
                 <NavLink href="#">Clients</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Career</NavLink>
+                <NavLink href="/Form">Career</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Contact Us</NavLink>
+                <NavLink href="/Contact">Contact Us</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
